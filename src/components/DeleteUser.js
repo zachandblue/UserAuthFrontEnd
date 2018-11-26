@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import decode from 'jwt-decode';
 import Cookies from 'universal-cookie';
+
 import { URL } from '../utilities/urls';
 import { Button } from '../styles/Button';
 import { Transition } from 'react-spring';

@@ -20,7 +20,7 @@ export default class LoggedInContainer extends Component {
           items={[
             <LoggedInHeader>
               {username && (
-                <div style={{ display: 'flex' }}>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
                   <h2>
                     You are now logged in as <span>{username}</span>
                   </h2>
