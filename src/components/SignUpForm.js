@@ -90,7 +90,7 @@ export default class SignUpForm extends Component {
         NProgress.done();
         this.props.getUser();
       })
-      .catch(err => console.log(err));
+      .catch(err => NProgress.done());
   };
 
   validate = (username, password, passwordConfirm) => {

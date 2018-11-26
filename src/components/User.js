@@ -59,7 +59,7 @@ export default class User extends Component {
           message: response.message
         });
       })
-      .catch(err => console.log(err));
+      .catch(err => NProgress.done());
   };
 
   getToken = async () => {

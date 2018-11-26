@@ -61,7 +61,7 @@ export default class LogInForm extends Component {
         this.props.getUser();
       })
       .catch(err => {
-        console.log(err);
+        NProgress.done();
         this.setState({ message: 'Something went wrong...' });
       });
   };
